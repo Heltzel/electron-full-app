@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <title>Electron Crypto App</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+
+<body>
+    <div class="row">
+        <div id="price-container">
+            <p class="subtext">Current BTC USD</p>
+            <h1 id="price">Loading...</h1>
+        </div>
+        <div id="goal-container">
+            <p>
+                <img src="../../assets/images/up.svg" alt="up">
+                &nbsp;
+                <span id="target-price">Choose a Target Price</span>
+            </p>
+        </div>
+        <div id="right-container">
+            <button id="notifyBtn">Notify me when...</button>
+        </div>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
