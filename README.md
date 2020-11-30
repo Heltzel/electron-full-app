@@ -9,7 +9,7 @@
 Download the repository. <br>
 Run mpn install. <br>
 
-run  npmm run package-win . <br>
+Run  npmm run package-win . <br>
 Find the  <strong> electron-tutorial-app-win32-ia32 </strong> folder in the release-builds folder. <br>
 Copy this folder to e.g. your desktop. <br>
 Double click  <strong> electron-tutorial-app.exe</strong>.
